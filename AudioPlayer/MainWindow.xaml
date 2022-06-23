@@ -28,11 +28,11 @@
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Style="{DynamicResource MaterialDesignTitleTextBlock}" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" FontWeight="Bold">Audio Player</TextBlock>
         <TextBox x:Name="filePath" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BorderThickness="1, 1, 1, 1" Margin="10,10,10,20" FontFamily="Arial" IsReadOnly="True" Cursor="Arrow">Open an mp3 file</TextBox>
-        <Button x:Name="openFile" Grid.Row="1" Grid.Column="2" Margin="10,10,10,18" FontFamily="Arial" FontSize="12" Padding="1,1,1,1" Cursor="Hand" Click="OpenFile_Click">Open</Button>
-        <Button Grid.Row="2" Grid.Column="0" Margin="10,0,10,21" FontFamily="Arial" FontSize="12" Padding="1,1,1,1" Cursor="Hand">Play</Button>
-        <Button Grid.Row="2" Grid.Column="1" Margin="10,1,10,21" FontFamily="Arial" FontSize="12" Padding="1,1,1,1" Cursor="Hand">Pause</Button>
-        <Button Grid.Row="2" Grid.Column="2" Margin="10,0,10,19" FontFamily="Arial" FontSize="12" Padding="1,1,1,1" Cursor="Hand">Stop</Button>
-        <Slider Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Margin="10,5,10,45" Minimum="0" Maximum="100"/>
-        <ProgressBar Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" x:Name="progressBar" Value="0" Minimum="0" Maximum="100" Margin="10,34,10,10" Height="20" />
+        <Button x:Name="openFile" Grid.Row="1" Grid.Column="2" Margin="10,10,10,18" FontFamily="Arial" FontSize="12" Padding="1,1,1,1" Cursor="Hand" Click="openFile_Click">Open</Button>
+        <Button x:Name="play" Grid.Row="2" Grid.Column="0" Margin="10,0,10,21" FontFamily="Arial" FontSize="12" Padding="1,1,1,1" Cursor="Hand" Click="play_Click">Play</Button>
+        <Button x:Name="pause" Grid.Row="2" Grid.Column="1" Margin="10,1,10,21" FontFamily="Arial" FontSize="12" Padding="1,1,1,1" Cursor="Hand" Click="pause_Click">Pause</Button>
+        <Button x:Name="stop" Grid.Row="2" Grid.Column="2" Margin="10,0,10,19" FontFamily="Arial" FontSize="12" Padding="1,1,1,1" Cursor="Hand" Click="stop_Click">Stop</Button>
+        <Slider x:Name="volume" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Margin="10,5,10,45" Minimum="0" Maximum="100" Value="50" ValueChanged="volume_ValueChanged"/>
+        <ProgressBar x:Name="progressBar" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Value="0" Minimum="0" Maximum="100" Margin="10,34,10,10" Height="20" />
     </Grid>
 </Window>
