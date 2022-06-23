@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ThinkPad\\source\\repos\\AudioPlayer\\AudioPlayer\\AudioPlayer.csproj": {}
+    "C:\\Users\\ThinkPad\\source\\repos\\Audio-player-project\\AudioPlayer\\AudioPlayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ThinkPad\\source\\repos\\AudioPlayer\\AudioPlayer\\AudioPlayer.csproj": {
+    "C:\\Users\\ThinkPad\\source\\repos\\Audio-player-project\\AudioPlayer\\AudioPlayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ThinkPad\\source\\repos\\AudioPlayer\\AudioPlayer\\AudioPlayer.csproj",
+        "projectUniqueName": "C:\\Users\\ThinkPad\\source\\repos\\Audio-player-project\\AudioPlayer\\AudioPlayer.csproj",
         "projectName": "AudioPlayer",
-        "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\AudioPlayer\\AudioPlayer\\AudioPlayer.csproj",
+        "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\Audio-player-project\\AudioPlayer\\AudioPlayer.csproj",
         "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThinkPad\\source\\repos\\AudioPlayer\\AudioPlayer\\obj\\",
+        "outputPath": "C:\\Users\\ThinkPad\\source\\repos\\Audio-player-project\\AudioPlayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

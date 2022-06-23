@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9kz0m5zk104ixDghTUxhFS6f/UjVMi0MsI6FnPXn1UAOeUdT0AlY+4gh5d9tjdoHoDzErgZgPcriy8FVkAolaQ==",
+  "dgSpecHash": "eMw1wRpyru7togL5L8jKP7iAlTx3inoAFtGoAjxhxIZHL27mba2ABm4SFW1GCEe3gEafjvn8tJmgag/kMVURVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ThinkPad\\source\\repos\\AudioPlayer\\AudioPlayer\\AudioPlayer.csproj",
+  "projectFilePath": "C:\\Users\\ThinkPad\\source\\repos\\Audio-player-project\\AudioPlayer\\AudioPlayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ThinkPad\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512"
